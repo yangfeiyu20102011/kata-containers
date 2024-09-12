@@ -473,6 +473,7 @@ static_check_license_headers()
 			--exclude="src/libs/protocols/protos/gogo/*.proto" \
 			--exclude="src/libs/protocols/protos/google/*.proto" \
 			--exclude="src/mem-agent/example/protocols/protos/google/protobuf/*.proto" \
+			--exclude="src/libs/protocols/protos/cri-api/api.proto" \
 			--exclude="src/libs/*/test/texture/*" \
 			--exclude="*.dic" \
 			-EL $extra_args "\<${pattern}\>" \
