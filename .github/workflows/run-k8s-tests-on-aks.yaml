@@ -57,7 +57,7 @@ jobs:
             vmm: clh
             instance-type: normal
             auto-generate-policy: yes
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     env:
       DOCKER_REGISTRY: ${{ inputs.registry }}
       DOCKER_REPO: ${{ inputs.repo }}
